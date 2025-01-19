@@ -1,25 +1,25 @@
 # New_IndianSignLanguage_Detection
 
 #👐 Indian Sign Language Detection 🇮🇳
-##📜 Description
+#📜 Description
 Indian Sign Language Detection is an ongoing project aimed at bridging the communication gap between specially-abled individuals and others by recognizing sign language gestures in real time.
 
-##🌟 Background
+#🌟 Background
 One of the major challenges faced by specially-abled individuals is effective communication with those who do not understand sign language. This project uses machine learning to detect and classify gestures, enabling smoother and more meaningful interactions.
 
-##✨ What's in it?
-###📂 Dataset Creation:
+#✨ What's in it?
+#📂 Dataset Creation:
 
 Organized folders for each word in the sign language.
 Recorded 180 videos for each word, capturing 30 frames per video.
 Used MediaPipe to extract pose and hand landmarks separately and merged them for comprehensive data.
-###🔧 Preprocessing:
+#🔧 Preprocessing:
 
 Augmented data using techniques like scaling, mirroring, speed adjustments, and other methods to increase variability.
-###🤖 Model Building:
+#🤖 Model Building:
 
 Built an LSTM-based sequential model to analyze landmark sequences and predict gestures in real time.
-###🚀 Current Status
+#🚀 Current Status
 This is an ongoing project, with exciting features and improvements yet to come. Stay tuned!
 
 #🎯 Future Plans
